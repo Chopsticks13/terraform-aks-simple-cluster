@@ -1,7 +1,7 @@
 # Automated Provisioning of Azure Kubernetes Service (AKS) Cluster using Terraform
 
 
-This repository contains Terraform code to provision an Azure Kubernetes Service (AKS) cluster in the East US region. The AKS cluster is created with a default node pool of size `Standard_D2_v2` and 2 nodes. The Terraform code consists of the following files:
+This repository contains Terraform code to provision an Azure Kubernetes Service (AKS) cluster. The AKS cluster is created with a default node pool of size `Standard_D2_v2` and 2 nodes. The Terraform code consists of the following files:
 
 - `variables.tf`: Defines the input variables used in the configuration.
 - `main.tf`: Defines the Azure provider configuration, resource group creation, and the AKS cluster provisioning.
